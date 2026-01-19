@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+
     <!-- Header/Navigation -->
     <header class="header">
         <nav class="nav">
@@ -24,6 +27,10 @@
                 <li><a href="#events" class="nav-link">Events</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-sun sun-icon"></i>
+                <i class="fas fa-moon moon-icon"></i>
+            </button>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -38,18 +45,23 @@
             <div class="hero-content">
                 <div class="hero-image">
                     <div class="profile-placeholder">
-                        <img src="img\profile_pic.jpeg" alt="Nimish Parmar" style="height: 200px; width: 200px; border-radius: 50%;">
+                        <img src="img\profile_pic.jpeg" alt="Nimish Parmar"
+                            style="height: 200px; width: 200px; border-radius: 50%;">
                     </div>
                 </div>
                 <div class="hero-text">
                     <h1 class="hero-name">Nimish Parmar</h1>
                     <h2 class="hero-title">Data Analyst | Data Scientist</h2>
                     <p class="hero-bio">
-                        Passionate Data Analyst hands-on expertise in Python, SQL, machine learning, deep learning, NLP, and data visualization, turning complex data into meaningful insights through sales forecasting, customer segmentation, and marketing analytics. Currently working at a leading consulting company, helping organizations make data-driven decisions that drive growth and efficiency.
+                        Passionate Data Analyst hands-on expertise in Python, SQL, machine learning, deep learning, NLP,
+                        and data visualization, turning complex data into meaningful insights through sales forecasting,
+                        customer segmentation, and marketing analytics. Currently working at a leading consulting
+                        company, helping organizations make data-driven decisions that drive growth and efficiency.
                     </p>
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn--primary">View Projects</a>
-                        <a href="#" class="btn btn--outline" id="download-resume">Download Resume</a>
+                        <a href="files\Nimish_Parmar_IITBHU.pdf" class="btn btn--outline" id="download-resume"
+                            download>Download Resume</a>
                     </div>
                 </div>
             </div>
@@ -63,11 +75,20 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I started my journey in Civil Engineering at IIT BHU, where I built a strong technical foundation and discovered a deep interest in data science and AI. Since then, I have gained hands-on experience in Python, SQL, machine learning, deep learning, natural language processing, and data visualization, developing the ability to turn complex datasets into meaningful insights. What excites me about this field is the blend of analytical thinking and creativity, where technology can be applied to solve real-world challenges and unlock new opportunities.                        
+                        I started my journey in Civil Engineering at IIT BHU, where I built a strong technical
+                        foundation and discovered a deep interest in data science and AI. Since then, I have gained
+                        hands-on experience in Python, SQL, machine learning, deep learning, natural language
+                        processing, and data visualization, developing the ability to turn complex datasets into
+                        meaningful insights. What excites me about this field is the blend of analytical thinking and
+                        creativity, where technology can be applied to solve real-world challenges and unlock new
+                        opportunities.
                     </p>
 
                     <p>
-                        Beyond work, I enjoy playing chess and table tennis, engaging in creative pursuits, and exploring personal finance, all of which strengthen my curiosity, problem-solving, and strategic mindset. Looking ahead, I am inspired by how data science and AI are transforming industries worldwide, and I am eager to contribute to innovations that drive impactful change.
+                        Beyond work, I enjoy playing chess and table tennis, engaging in creative pursuits, and
+                        exploring personal finance, all of which strengthen my curiosity, problem-solving, and strategic
+                        mindset. Looking ahead, I am inspired by how data science and AI are transforming industries
+                        worldwide, and I am eager to contribute to innovations that drive impactful change.
                     </p>
                     <!-- <div class="about-stats">
                         <div class="stat">
@@ -83,12 +104,6 @@
                             <p>Clients Served</p>
                         </div>
                     </div> -->
-                </div>
-                <div class="about-resume">
-                    <a href="files\Nimish_Parmar_IITBHU.pdf" class="btn btn--primary btn--lg" id="main-resume-btn" download>
-                        <i class="fas fa-download"></i>
-                        Download Resume
-                    </a>
                 </div>
             </div>
         </div>
@@ -119,7 +134,7 @@
                     </div>
                     <span class="skill-percentage">4/5</span>
                 </div>
-                <div class="skill-item">
+                <!-- <div class="skill-item">
                     <div class="skill-icon">
                         <i class="fas fa-chart-bar"></i>
                     </div>
@@ -128,7 +143,7 @@
                         <div class="skill-progress" data-width="40"></div>
                     </div>
                     <span class="skill-percentage">2/5%</span>
-                </div>
+                </div> -->
                 <div class="skill-item">
                     <div class="skill-icon">
                         <i class="fas fa-file-excel"></i>
@@ -191,7 +206,7 @@
                 <button class="toggle-btn active" data-target="experience-tab">Experience</button>
                 <button class="toggle-btn" data-target="education-tab">Education</button>
             </div>
-            
+
             <!-- Experience Tab -->
             <div class="tab-content active" id="experience-tab">
                 <div class="timeline">
@@ -200,7 +215,9 @@
                         <div class="timeline-content">
                             <h3>Associate</h3>
                             <h4>Beghou Consulting</h4>
-                            <p>Utilizing Python libraries, including Pandas and Databricks, to manage the end-to-end data lifecycle from preprocessing and analysis to model development. Applying machine learning principles to deliver data-driven solutions and insights</p>
+                            <p>Utilizing Python libraries, including Pandas and Databricks, to manage the end-to-end
+                                data lifecycle from preprocessing and analysis to model development. Applying machine
+                                learning principles to deliver data-driven solutions and insights</p>
                         </div>
                     </div>
                     <!-- <div class="timeline-item">
@@ -230,7 +247,12 @@
                         <div class="timeline-content">
                             <h3>Bachelor of Technology</h3>
                             <h4>Indian Institute of Technology, Banaras Hindu University</h4>
-                            <p>Graduated with a B.Tech in Civil Engineering from IIT (BHU), Varanasi, with a CGPA of 8.42. Completed electives EC-422 (Artificial Intelligence) with the Electronics Engineering Department and MA-202 (Probability and Statistics) with the Mathematical Sciences Department. Held leadership roles as Publicity Head for the college sports fest and Creative Head of the Civil Engineering Society, while actively pursuing machine learning through projects and club activities.</p>
+                            <p>Graduated with a B.Tech in Civil Engineering from IIT (BHU), Varanasi, with a CGPA of
+                                8.42. Completed electives EC-422 (Artificial Intelligence) with the Electronics
+                                Engineering Department and MA-202 (Probability and Statistics) with the Mathematical
+                                Sciences Department. Held leadership roles as Publicity Head for the college sports fest
+                                and Creative Head of the Civil Engineering Society, while actively pursuing machine
+                                learning through projects and club activities.</p>
                         </div>
                     </div>
                     <!-- <div class="timeline-item">
@@ -258,14 +280,16 @@
                         </div>
                         <div class="project-overlay">
                             <h3>Web Scrapper</h3>
-                            <a href="https://github.com/Nimo160302/WebScraping101-" target="github_link" class="project-link">
+                            <a href="https://github.com/Nimo160302/WebScraping101-" target="github_link"
+                                class="project-link">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                     <div class="project-info">
                         <h3>Web Scrapper</h3>
-                        <p>scraps the latest NIRF data for the top 100 engineering colleges in India, providing an authoritative overview of institutional performance and rankings for 2025.</p>
+                        <p>scraps the latest NIRF data for the top 100 engineering colleges in India, providing an
+                            authoritative overview of institutional performance and rankings for 2025.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>BeautifulSoup</span>
@@ -276,10 +300,10 @@
 
                 <!-- <div class="project-card">
                         <div class="project-image"> -->
-                            <!-- Embed LinkedIn video here/ tried to insert video in frame -->
+                <!-- Embed LinkedIn video here/ tried to insert video in frame -->
 
-                            <!-- <iframe src="https://vimeo.com/1110562783?share=copy" -->
-                            <!-- <iframe src="https://player.vimeo.com/video/1110562783"
+                <!-- <iframe src="https://vimeo.com/1110562783?share=copy" -->
+                <!-- <iframe src="https://player.vimeo.com/video/1110562783"
                                 width="100%" height="220"
                                 frameborder="0"
                                 allow="autoplay; fullscreen; picture-in-picture"
@@ -310,14 +334,17 @@
                         </div>
                         <div class="project-overlay">
                             <h3>AI Agent Workflow</h3>
-                            <a href="https://www.linkedin.com/posts/nimish-parmar-06127120a_learning-automation-n8n-activity-7339701560483975169-Gli_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUTdgkBm8kIqhzvHadYDuVuGcgKI7jBFCQ" target="_blank" class="project-link">
+                            <a href="https://www.linkedin.com/posts/nimish-parmar-06127120a_learning-automation-n8n-activity-7339701560483975169-Gli_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUTdgkBm8kIqhzvHadYDuVuGcgKI7jBFCQ"
+                                target="_blank" class="project-link">
                                 <i class="fas fa-video"></i>
                             </a>
                         </div>
                     </div>
                     <div class="project-info">
                         <h3>AI Agent Workflow</h3>
-                        <p>This automation connects Google Sheets, OpenAI, and Gmail to quickly create personalized job application email drafts with just one click. It grabs job details from the sheet, writes a customized email, saves it as a draft, and keeps the status updated instantly.</p>
+                        <p>This automation connects Google Sheets, OpenAI, and Gmail to quickly create personalized job
+                            application email drafts with just one click. It grabs job details from the sheet, writes a
+                            customized email, saves it as a draft, and keeps the status updated instantly.</p>
                         <div class="project-tech">
                             <span>n8n</span>
                             <span>Automation</span>
@@ -358,66 +385,69 @@
         <div class="container">
             <h2 class="section-title">Certifications</h2>
             <div class="certifications-grid">
-            
 
 
-            <a href="https://drive.google.com/file/d/1lTFoTgRg3VFOg6GXdejhe2wz_nVSjLoL/view?usp=drive_link" target="_blank" class="cert-link">  
-                <div class="certification-card">
-                    <div class="cert-icon">
-                    <img src="img\IIITDM-Jabalpur.png" alt="HackerRankLogo" style="height: 40px;">
+
+                <a href="https://drive.google.com/file/d/1lTFoTgRg3VFOg6GXdejhe2wz_nVSjLoL/view?usp=drive_link"
+                    target="_blank" class="cert-link">
+                    <div class="certification-card">
+                        <div class="cert-icon">
+                            <img src="img\IIITDM-Jabalpur.png" alt="HackerRankLogo" style="height: 40px;">
+                        </div>
+                        <div class="cert-info">
+                            <h3>1st Summer School on Deep Learning</h3>
+                            <p>IIITDM-Jabalpur</p>
+                            <span class="cert-date">2025</span>
+                        </div>
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
                     </div>
-                    <div class="cert-info">
-                        <h3>1st Summer School on Deep Learning</h3>
-                        <p>IIITDM-Jabalpur</p>
-                        <span class="cert-date">2025</span>
+                </a>
+
+                <a href="https://drive.google.com/file/d/1Gvs2Olgu3EdLK2KouGDpx1ZOcqxxf6o0/view?usp=drive_link"
+                    target="_blank" class="cert-link">
+                    <div class="certification-card">
+
+                        <div class="cert-icon">
+                            <img src="img\data_avengers.png" alt="DataAvengersLogo" style="height: 40px;">
+                        </div>
+
+                        <div class="cert-info">
+                            <h3>Data Avengers Analytics Bootcamp</h3>
+                            <p>Data Avengers</p>
+                            <span class="cert-date">2025</span>
+                        </div>
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
                     </div>
-                    <div class="cert-overlay">
-                        <i class="fas fa-external-link-alt"></i>
+                </a>
+
+
+                <a href="https://drive.google.com/file/d/1BjNLOY9BrfhPK0vxMHJ6Ia_6-btH1t10/view?usp=drive_link"
+                    target="_blank" class="cert-link">
+                    <div class="certification-card">
+
+                        <div class="cert-icon">
+                            <img src="img\hacker rank.png" alt="HackerRankLogo" style="height: 40px;">
+                        </div>
+
+
+
+                        <div class="cert-info">
+                            <h3>SQL (Advanced) Certificate</h3>
+                            <p>HackerRank</p>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
                     </div>
-                </div>
-            </a>
-
-            <a href="https://drive.google.com/file/d/1Gvs2Olgu3EdLK2KouGDpx1ZOcqxxf6o0/view?usp=drive_link" target="_blank" class="cert-link">  
-                <div class="certification-card">
-
-                    <div class="cert-icon">
-                    <img src="img\data_avengers.png" alt="DataAvengersLogo" style="height: 40px;">
-                    </div>
-
-                    <div class="cert-info">
-                        <h3>Data Avengers Analytics Bootcamp</h3>
-                        <p>Data Avengers</p>
-                        <span class="cert-date">2025</span>
-                    </div>
-                    <div class="cert-overlay">
-                        <i class="fas fa-external-link-alt"></i>
-                    </div>
-                </div>
-            </a> 
-            
-            
-            <a href="https://drive.google.com/file/d/1BjNLOY9BrfhPK0vxMHJ6Ia_6-btH1t10/view?usp=drive_link" target="_blank" class="cert-link">  
-                <div class="certification-card">
-
-                    <div class="cert-icon">
-                    <img src="img\hacker rank.png" alt="HackerRankLogo" style="height: 40px;">
-                    </div>
+                </a>
 
 
-
-                    <div class="cert-info">
-                        <h3>SQL (Advanced) Certificate</h3>
-                        <p>HackerRank</p>
-                        <span class="cert-date">2024</span>
-                    </div>
-                    <div class="cert-overlay">
-                        <i class="fas fa-external-link-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-
-            <!-- <a href="https://www.coursera.org/account/accomplishments/certificate/3X2Z5F7K9Q4D" target="_blank" class="cert-link">  
+                <!-- <a href="https://www.coursera.org/account/accomplishments/certificate/3X2Z5F7K9Q4D" target="_blank" class="cert-link">  
                 <div class="certification-card">
                     <div class="cert-icon">
                         <i class="fab fa-microsoft"></i>
@@ -497,13 +527,16 @@
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Let's Connect</h3>
-                    <p>I'm always interested in discussing data science opportunities, collaborating on projects, or sharing insights about the latest trends in analytics and recently learning about personal finance.</p>
+                    <p>I'm always interested in discussing data science opportunities, collaborating on projects, or
+                        sharing insights about the latest trends in analytics and recently learning about personal
+                        finance.</p>
                     <div class="contact-links">
                         <a href="mailto:nimishparmar15@gmail.com" class="contact-link">
                             <i class="fas fa-envelope"></i>
                             nimishparmar15@gmail.com
                         </a>
-                        <a href="https://www.linkedin.com/in/nimish-parmar-06127120a/" target="_blank" class="contact-link">
+                        <a href="https://www.linkedin.com/in/nimish-parmar-06127120a/" target="_blank"
+                            class="contact-link">
                             <i class="fab fa-linkedin"></i>
                             LinkedIn Profile
                         </a>
@@ -539,7 +572,8 @@
                 </div>
                 <div class="footer-links">
                     <a href="mailto:nimishparmar15@gmail.com"><i class="fas fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/nimish-parmar-06127120a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/nimish-parmar-06127120a/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/Nimo160302" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>
@@ -551,4 +585,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
